@@ -26,7 +26,7 @@ npm install react-kanbanify
 
 ## **Screenshot**
 
-![App Screenshot](assets/react-kanbanify.png)
+![App Screenshot](./assets/react-kanbanify.png)
 
 ## **Basic Usage**
 
