@@ -1,8 +1,7 @@
 {
   "name": "react-kanbanify",
   "version": "1.0.0",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "index.ts",
   "type": "module",
   "keywords": [
     "kanban",
@@ -28,6 +27,11 @@
     "project-planning",
     "team-collaboration",
     "drag-drop"
+  ],
+  "files": [
+    "dist",
+    "README.md",
+    "src/assets"
   ],
   "scripts": {
     "build": "npx rollup -c"
