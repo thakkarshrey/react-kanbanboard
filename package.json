@@ -42,9 +42,6 @@
   "bugs": {
     "url": "https://github.com/thakkarshrey/react-kanbanboard/issues"
   },
-  "sideEffects": [
-    "dist/styles.css"
-  ],
   "devDependencies": {
     "@rollup/plugin-babel": "^6.0.4",
     "@rollup/plugin-typescript": "^12.1.1",
