@@ -4,12 +4,44 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "type": "module",
+  "keywords": [
+    "kanban",
+    "kanban-board",
+    "task-board",
+    "project-management",
+    "drag-and-drop",
+    "task-tracking",
+    "workflow-management",
+    "react",
+    "react-component",
+    "react-kanban",
+    "react-kanban-board",
+    "react-drag-and-drop",
+    "customizable",
+    "interactive",
+    "task-management",
+    "agile",
+    "scrum",
+    "project-planning",
+    "team-collaboration",
+    "drag-drop"
+  ],
   "scripts": {
     "build": "npx rollup -c"
   },
   "author": "Shrey Thakkar",
   "license": "ISC",
-  "description": "",
+  "description": "A reusable React Kanban board component for task and workflow management with drag-and-drop functionality.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thakkarshrey/react-kanbanboard"
+  },
+  "bugs": {
+    "url": "https://github.com/thakkarshrey/react-kanbanboard/issues"
+  },
+  "sideEffects": [
+    "dist/styles.css"
+  ],
   "devDependencies": {
     "@rollup/plugin-babel": "^6.0.4",
     "@rollup/plugin-typescript": "^12.1.1",
@@ -20,5 +52,12 @@
     "rollup-plugin-scss": "^4.0.0",
     "sass": "^1.81.0",
     "tslib": "^2.8.1"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
   }
 }
