@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "declaration": true, // Enable declaration file generation
+    "declarationDir": "dist", // Where to output type declarations
+    "emitDeclarationOnly": false, // Emit both JavaScript and type declarations
+    "target": "ESNext",
+    "module": "ESNext",
+    "strict": true,
+    "jsx": "react",
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node"
+  },
+  "exclude": ["node_modules", "dist"]
+}

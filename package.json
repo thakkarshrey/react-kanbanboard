@@ -1,0 +1,23 @@
+{
+  "name": "react-kanbanboard",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "type": "module",
+  "scripts": {
+    "build": "npx rollup -c"
+  },
+  "author": "Shrey Thakkar",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-typescript": "^12.1.1",
+    "@types/react": "^18.3.12",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "rollup": "^4.27.3",
+    "rollup-plugin-scss": "^4.0.0",
+    "sass": "^1.81.0",
+    "tslib": "^2.8.1"
+  }
+}
