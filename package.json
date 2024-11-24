@@ -1,5 +1,5 @@
 {
-  "name": "kanban-board-react",
+  "name": "react-kanbanify",
   "version": "1.0.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -8,6 +8,9 @@
     "kanban",
     "kanban-board",
     "task-board",
+    "drag-board",
+    "drag",
+    "react-drag-board",
     "project-management",
     "drag-and-drop",
     "task-tracking",
