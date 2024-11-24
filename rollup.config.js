@@ -22,9 +22,9 @@ export default defineConfig({
       tsconfig: "tsconfig.json",
     }),
     scss({
-      output: "dist/styles.css", // Extracts and writes SCSS as a CSS file
-      outputStyle: "compressed", // Minify the CSS output
-      sourceMap: true, // Enable source maps for easier debugging
+      fileName: "styles.css",
+      outputStyle: "compressed",
+      sourceMap: true,
     }),
   ],
 });
