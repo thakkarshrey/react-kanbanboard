@@ -1,6 +1,6 @@
 {
   "name": "react-kanbanify",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "type": "module",
@@ -32,7 +32,7 @@
   "files": [
     "dist",
     "README.md",
-    "src/assets"
+    "assets"
   ],
   "scripts": {
     "build": "npx rollup -c"
@@ -42,10 +42,10 @@
   "description": "A reusable React Kanban board component for task and workflow management with drag-and-drop functionality.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/thakkarshrey/react-kanbanboard"
+    "url": "https://github.com/thakkarshrey/react-kanbanify"
   },
   "bugs": {
-    "url": "https://github.com/thakkarshrey/react-kanbanboard/issues"
+    "url": "https://github.com/thakkarshrey/react-kanbanify/issues"
   },
   "devDependencies": {
     "@rollup/plugin-babel": "^6.0.4",
